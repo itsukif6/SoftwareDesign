@@ -115,15 +115,15 @@ function OrderTrack() {
     fetch("http://localhost:5000/getDeliveryStatus")
       .then((response) => response.json())
       .then((data) => {
-        if (data == 1) {
-          console.log("DeliveryStatus",data)
-            document.getElementById('cut-line').style.marginTop = '12rem';
+        if (data == 0) {
+          console.log("DeliveryStatus", data)
+          document.getElementById('cut-line').style.marginTop = '12rem';
+        } else if (data == 1) {
+          console.log("DeliveryStatus", data)
+          document.getElementById('cut-line').style.marginTop = '0rem';
         } else if (data == 2) {
-            console.log("DeliveryStatus",data)
-            document.getElementById('cut-line').style.marginTop = '0rem';
-        } else if (data == 3) {
-          console.log("DeliveryStatus",data)
-            document.getElementById('cut-line').style.marginTop = '0rem';
+          console.log("DeliveryStatus", data)
+          document.getElementById('cut-line').style.marginTop = '0rem';
         }
         setDeliveryStatus(data);
       })
@@ -154,7 +154,7 @@ function OrderTrack() {
   };
 
   const isOrderEmpty = () => {
-    console.log(price)
+    // console.log(price)
     if (price === null || price === undefined || price === false) {
       return true; // Cart is empty if it's null or undefined
     } else {
@@ -242,7 +242,7 @@ function OrderTrack() {
           </div>
         ) : (
           <><h1 id="ordertrack-data-text">訂單送餐狀態頁面</h1><div className="food-status">
-            {DeliveryStatus === 1 ? (
+            {DeliveryStatus === 0 ? (
               <div className="food-status-component">
                 <div className="food-img">
                   <img
@@ -253,7 +253,7 @@ function OrderTrack() {
                 </div>
                 <h2 className="ordertrack-status-text">餐點準備中</h2>
               </div>
-            ) : DeliveryStatus === 2 ? (
+            ) : DeliveryStatus === 1 ? (
               <div>
                 <img
                   src={deliveringImg}

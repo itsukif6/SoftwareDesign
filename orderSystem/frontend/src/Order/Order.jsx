@@ -105,7 +105,7 @@ const items = [
 
 function Order() {
   // useState hook to get Delivery Status state
-  const [DeliveryStatus, setDeliveryStatus] = useState(1);
+  const [DeliveryStatus, setDeliveryStatus] = useState(0);
   // useState hook to manage price
   const [price, setPrice] = useState(null);
   // useState hook to get Order Data
@@ -162,7 +162,7 @@ function Order() {
   // time settings
   if (orderData !== null) {
     if (orderData !== "false") {
-      console.log(orderData);
+      // console.log(orderData);
       var username = orderData[0];
       var time = orderData[16];
       var timeYY = time.substring(0, 4);
@@ -175,13 +175,13 @@ function Order() {
   }
 
   // Delivery status
-  var DeliveryText;
+  var DeliveryText = "餐點準備中";
   if (DeliveryStatus) {
-    if (DeliveryStatus === 1) {
+    if (DeliveryStatus == 0) {
       DeliveryText = "餐點準備中";
-    } else if (DeliveryStatus === 2) {
+    } else if (DeliveryStatus === 1) {
       DeliveryText = "餐點運送中";
-    } else if (DeliveryStatus === 3) {
+    } else if (DeliveryStatus === 2) {
       DeliveryText = "餐點已送達";
     }
   }
