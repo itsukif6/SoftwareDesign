@@ -24,14 +24,8 @@ How to open:
   
   > * cd to ```frontend/src``` and command ```npm start```.  
   > * cd to ```backend/orderSystemVenv``` and command ```flask run```.  
-<<<<<<< HEAD:orderSystem/README.md
-    
-  5. 預設staff密碼:
-  > * 12345678
-=======
 
   5. 
    > * default staff password is ```12345678```.
->>>>>>> 758fd9edd6f65cff004046b5e20a08c58e78454d:README.md
 ---
 
