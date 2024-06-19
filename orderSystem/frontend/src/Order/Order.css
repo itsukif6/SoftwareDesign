@@ -1,0 +1,155 @@
+﻿.order-full-componenet {
+  background-image: url("./start.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: SimHei, SimSun;
+}
+
+#menu {
+  position: absolute;
+  right: 0;
+  border: 5.5px solid rgb(245, 245, 245);
+  border-style: double;
+
+  border-radius: 5px;
+}
+
+.ant-menu-title-content {
+  color: #000;
+}
+
+svg {
+  color: #000;
+}
+
+.ant-menu-submenu-title {
+  color: #000;
+}
+
+.ant-menu.ant-menu-root.ant-menu-inline.ant-menu-light.css-dev-only-do-not-override-1kuana8 {
+  background-color: rgb(245, 245, 245);
+}
+
+/* main component */
+.order-componenets {
+  height: 50rem;
+  width: 80rem;
+  background-image: url("./gray.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+
+  border-radius: 1rem;
+  border: 3rem;
+  border-style: double;
+  border-width: 0.3rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+#order-info {
+  padding-left: 3rem;
+  /* padding-right: 3rem; */
+  /* border-radius: 1rem; */
+  /* border: 3rem; */
+  /* border-style: double; */
+  /* border-width: 0.3rem; */
+}
+
+#user-info {
+  padding-left: 2rem;
+  padding-right: 3rem;
+  /* border-radius: 1rem; */
+  /* border: 3rem; */
+  /* border-style: double; */
+  /* border-width: 0.3rem; */
+}
+/* 
+#cut-line {
+    background-image: repeating-linear-gradient(45deg, #6069c4, #6069c4 33px, transparent 0, transparent 41px, #b8dd73 0, #b8dd73 74px, transparent 0, transparent 82px);
+    background-position-x: -1.875rem;
+    background-size: 7.25rem .1875rem;
+    height: .1875rem;
+    width: 100%;
+    margin-top: 12rem;
+}
+
+.food-status-component {
+    width: 10rem;
+    height: 10rem;
+}
+
+.food-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.food-status-img {
+    margin-top: 0.8rem;
+    width: 14rem;
+    height: 14rem;
+    border-style: ridge;
+    border-width: 0.4rem;
+
+}
+
+#order-data-text {
+    margin-top: 5rem;
+    padding-bottom: 0.3rem;
+    border-bottom: 0.1rem solid;
+}
+
+.order-status-text {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+}
+
+#price-text-h2 {
+    border-bottom: 0.1rem solid;
+    margin-top: 3rem;
+    font-size: 2rem;
+} */
+
+#show-info-button {
+  font-size: 1.3rem;
+  width: 8rem;
+  font-weight: 1000;
+  color: #000;
+  border: 1px solid rgb(0 0 0 / 50%);
+}
+
+.info-comtainer {
+  font-size: x-large;
+}
+
+.MuiTypography-root.MuiTypography-h6.MuiDialogTitle-root.css-bdhsul-MuiTypography-root-MuiDialogTitle-root {
+  font-size: xx-large;
+}
+
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation24.MuiDialog-paper.MuiDialog-paperScrollPaper.MuiDialog-paperWidthSm.css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+  width: 30rem;
+}
+
+.MuiButtonBase-root.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.MuiButton-colorPrimary.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.MuiButton-colorPrimary.css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+  font-size: large;
+}
+
+.css-dev-only-do-not-override-1kuana8.ant-empty{
+  margin-right: 3rem;
+}

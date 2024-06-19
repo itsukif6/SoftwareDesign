@@ -1,0 +1,190 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    /* height: 100%; */
+    /* 讓 body 填滿整個視口高度 */
+    font-family: SimHei, SimSun;
+}
+
+.food-text {
+    height: 1rem;
+    font-size: 1.9rem;
+}
+
+.food-name-text {
+    height: 2%;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-direction: row;
+    font-size: 1.5rem;
+}
+
+.broadImg {
+    height: 12.5rem;
+}
+
+.submit {
+    size: 10rem;
+    text-align: right;
+}
+
+.foodImg-container {
+    position: relative;
+    display: inline-block;
+}
+
+.foodImg {
+    /* 200px for 2k */
+    /* 200px = 10em */
+    /* 120px for 1k */
+    width: 10rem;
+    height: 10rem;
+    border-style: ridge;
+    border-width: 0.5rem;
+}
+
+.foodImg-container .foodImg-text {
+    visibility: hidden;
+    position: absolute;
+    bottom: 1.5rem;
+    left: 5.5rem;
+    width: 8rem;
+    height: 8rem;
+    font-size: 1rem;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+
+.foodImg-text p {
+    margin: 0.02rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foodImg-container:hover .foodImg-text,
+.foodImg-container.show-info .foodImg-text {
+    visibility: visible;
+}
+
+#showInfoButton{
+    position: relative;
+    left: 68rem;
+    top: 3.5rem;
+    width: 8rem;
+}
+
+.img-text {
+    display: inline-block;
+
+}
+
+.order-num {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-direction: row;
+}
+
+.broadImg {
+    width: 70rem;
+    height: 17rem;
+    text-align: center;
+}
+
+.food-text {
+    text-align: left;
+}
+
+
+#full-menu-component {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+
+
+    /* gray background */
+    background-image: url('./restaurant.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+
+
+#menu-component {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 58rem;
+    /* 200px for 2k */
+    /* test 75% for all */
+    width: 85rem;
+    flex-direction: column;
+
+    border-style: ridge;
+    border-width: 0.5rem;
+    border-radius: 1rem;
+
+    background-image: url('./gray.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.plus-minus-button {
+    width: 1.45rem;
+    height: 1.45rem;
+    border-radius: 0.18rem;
+    border-left: 1rem;
+    border: 0.09rem solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #e4fbff;
+    border: #000000; */
+}
+
+input {
+    width: 3rem;
+    height: 1.2rem;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+    border: 0.09rem solid;
+    border-radius: 0.18rem;
+}
+
+#menu {
+    top: 0;
+}
+
+.submit {
+    position: absolute;
+    right: 0rem;
+    bottom: 0rem;
+    width: 10rem;
+    height: 10rem;
+    font-size: 1.6rem;
+    text-align: center;
+    border-style: ridge;
+    border-width: 0.5rem;
+    border-radius: 1rem;
+}
+
+#back-to-menu{
+    margin-right: 2rem;
+}

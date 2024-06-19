@@ -1,0 +1,115 @@
+﻿.ordertrack-full-componenet {
+    background-image: url('./start.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: SimHei, SimSun;
+}
+
+
+#menu {
+    position: absolute;
+    right: 0;
+    border: 5.5px solid rgb(245, 245, 245);
+    border-style: double;
+
+    border-radius: 5px;
+}
+
+.ant-menu-title-content {
+    color: #000;
+}
+
+svg {
+    color: #000;
+}
+
+.ant-menu-submenu-title {
+    color: #000;
+}
+
+.ant-menu.ant-menu-root.ant-menu-inline.ant-menu-light.css-dev-only-do-not-override-1kuana8 {
+    background-color: rgb(245, 245, 245);
+}
+
+/* main component */
+.ordertrack-componenet {
+    height: 50rem;
+    width: 80rem;
+    background-image: url('./gray.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+    border-radius: 1rem;
+    border: 3rem;
+    border-style: double;
+    border-width: 0.3rem;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+#cut-line {
+    background-image: repeating-linear-gradient(45deg, #6069c4, #6069c4 33px, transparent 0, transparent 41px, #b8dd73 0, #b8dd73 74px, transparent 0, transparent 82px);
+    background-position-x: -1.875rem;
+    background-size: 7.25rem .1875rem;
+    height: .1875rem;
+    width: 100%;
+    margin-top: 12rem;
+}
+
+.food-status-component {
+    width: 10rem;
+    height: 10rem;
+}
+
+.food-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.food-status-img {
+    margin-top: 0.8rem;
+    width: 14rem;
+    height: 14rem;
+    border-style: ridge;
+    border-width: 0.4rem;
+
+}
+
+#ordertrack-data-text {
+    margin-top: 5rem;
+    padding-bottom: 0.3rem;
+    border-bottom: 0.1rem solid;
+}
+
+.ordertrack-status-text {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+}
+
+#price-text-h2 {
+    border-bottom: 0.1rem solid;
+    margin-top: 3rem;
+    font-size: 2rem;
+}
+
+#empty-component1 {
+    margin-top: 21rem;
+    margin-left: 4rem;
+}
