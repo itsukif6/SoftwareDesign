@@ -1,4 +1,4 @@
-手冊可以參考此文檔，或是orderSystem資料夾內的readme file.
+手冊可以參考此文檔，或是readme file.
 
 # Order System Project #
 
