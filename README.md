@@ -32,6 +32,5 @@ How to open:
 
   5. 
    > * default staff password is ```12345678```.
->>>>>>> 758fd9edd6f65cff004046b5e20a08c58e78454d:README.md
 ---
 
